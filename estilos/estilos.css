@@ -149,11 +149,27 @@ a:hover {
 
 }	
 
-    .parrafo-aislado {
-    text-align: center;              
-    padding: 30px 20px;              
-    background-color: #f0f0f0;
-    margin-top: 20px;         
+  .introduccion {
+    background-color: #f4f4f4;    
+    padding: 30px;                 
+    text-align: center;            
+    font-family: Arial, sans-serif;
+}
+
+.introduccion h2 {
+    color: #1e2a47;                
+    font-size: 2em;                 
+    margin-bottom: 20px;            
+}
+
+.introduccion p {
+    font-size: 1.1em;              
+    color: #555;                    
+    line-height: 1.6;              
+    max-width: 800px;               
+    margin: 0 auto 20px; 
+}
+  
 
 
 
