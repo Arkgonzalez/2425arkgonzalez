@@ -131,7 +131,7 @@ footer{
 }	
 
 img {
-	max-width: 300px;
+	max-width: 500px;
 	height: auto;
 	border-radius: 8px;
 	
@@ -148,12 +148,7 @@ a:hover {
 
 }	
 
-img {
-    width: 100%;
-    height: auto;
-    border: 10px solid #333; /* Un marco sólido de color oscuro */
-    padding: 10px; /* Espacio dentro del marco */
-    background-color: #fff; /* Fondo blanco detrás
+
 
 
 
