@@ -151,8 +151,9 @@ a:hover {
 
 
 	.galeria img {
-    width: 100%;
-    max-width: 250px;
+    width: 400px;
+    height: auto;	
+    max-width: 100%;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
