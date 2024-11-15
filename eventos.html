@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js"></script>
+</head>
+		<!--
+        Página de Eventos Gastronómicos.
+        En esta página se presentan los próximos eventos gastronómicos organizados por la sociedad.
+        Incluye una opción para mostrar u ocultar los detalles de los eventos con un botón.
+		-->
+<body>
+    <header>
+        <h1>Eventos Gastronómicos</h1>
+    </header>
+
+    <nav>
+	<ul>
+        <a href="index.html">Inicio</a>
+        <a href="gastronomia.html">Gastronomía</a>
+        <a href="Historia de la sociedad.html">Historia de la sociedad</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="contacto.html">Contacto</a>
+	</ul>
+    </nav>
+	
+<!-- Sección de los eventos con la opción de mostrar u ocultar los detalles -->
+    <section>
+        <h2>Próximos Eventos</h2>
+		
+		 <!-- Botón para mostrar u ocultar los eventos -->
+        <button onclick="mostrarEventos()">Mostrar/Ocultar Eventos</button>
+		
+		 <!-- Lista de eventos, inicialmente oculta -->
+        <ul id="eventosLista" style="display:none;">
+            
+			<li>Feria de la arboleda 2024</li>
+			<p>Feria agrícola,ganadera y artesanal reúne a miles de visitantes cada año
+		, ofreciendo una amplia variedad de productos.</p>
+			<img src="imagenes/Feria de la arboleda.png" alt="Feria de la arboleda" class="mi-imagen"/> 
+			
+            <li>Concurso de Pintxos 2024</li>
+			<p>Concurso de pintxos una competición culinaria organizada por los diferentes bares de Trapagaran</p>
+			<img src="imagenes/Concurso de pintxos.jpg" class="mi-imagen">
+			
+			<li>Curso de cocina 2025</li>
+			<p>Se abriran nuevas plazas para el curso de cocina de 2025</p>
+			<img src="imagenes/Curso.jpg" class="mi-imagen">
+			
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sociedad Gastronómica y Cultural</p>
+    </footer>
+</body>
+</html>

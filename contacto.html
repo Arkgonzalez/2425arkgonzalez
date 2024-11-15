@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<script src="funciones/funciones.js"></script>
+</head>
+<body>
+
+	<nav>
+		<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="gastronomia.html">Gastronómica</a></li>
+				<li><a href="Historia de la sociedad.html">Historia de la sociedad</a></li>
+				<li><a href="eventos.html">Eventos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+		</ul>		
+	</nav>
+	
+	<header>
+		<h1>Formulario de Contacto</h1>
+		<p>Si tienes alguna pregunta o deseas obtener más información sobre nuestra sociedad gastronómica, ¡no dudes en ponerte en contacto con nosotros!</p> 
+	</header>
+	
+	<!-- Sección del formulario de contacto -->
+	<section>
+	 <h2>Envíanos un mensaje</h2>
+	  <!-- Formulario de contacto con validación JavaScript -->
+	  
+        <form onsubmit="return validarFormulario()" action="mailto:tu_correo@dominio.com" method="post" enctype="text/plain">
+		 <!-- Campo de nombre -->
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+			
+		 <!-- Campo de correo electrónico -->
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+			
+         <!-- Campo de mensaje -->
+		    <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br><br>
+			
+		<!-- Botones para enviar y restablecer el formulario -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+		
+	</section>
+	
+	
+	<footer>
+        <p>&copy; 2024 Sociedad Gastronómica y Cultural</p>
+    </footer>
+	
+</body>
+</html>	
+			
+			
+				
+			
