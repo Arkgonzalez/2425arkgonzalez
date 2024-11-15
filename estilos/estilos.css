@@ -171,6 +171,13 @@ a:hover {
     margin: 0 auto 20px; 
 }
   
+.contenedor {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.contenedor img {
+    max-width: 100%; /* Opcional, para evitar que la imagen se salga del contenedor */
+}
 
 
 
