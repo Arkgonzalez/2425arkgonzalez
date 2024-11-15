@@ -154,9 +154,18 @@ main {
 	background-color: #fff;
 	border-radius: 8px;
 	text-align: center;
+
+	.galeria img {
+    width: 100%;
+    max-width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
 
-.mi-imagen {
-	width:300px;
-	height:200px;
-}	
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+
