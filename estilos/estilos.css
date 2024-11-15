@@ -148,15 +148,12 @@ a:hover {
 
 }	
 
-main {
-    width: 100%; 
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 20px; 
-    background-color: 
-    border-radius: 8px;
-    text-align: center;
-}
+img {
+    width: 100%;
+    height: auto;
+    border: 10px solid #333; /* Un marco sólido de color oscuro */
+    padding: 10px; /* Espacio dentro del marco */
+    background-color: #fff; /* Fondo blanco detrás
 
 
 
